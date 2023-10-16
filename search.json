@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "At DataFinHub, we’re more than just a platform; we’re a community of financial enthusiasts committed to democratizing access to high-quality financial data. Founded by a team of seasoned professionals with backgrounds in finance, data science, and technology, we realized the gap that existed between the availability of comprehensive and accurate financial data and the individuals and institutions that needed it the most.\nWe’re headquartered in the financial hub of the city, but our reach is global. Our technology infrastructure is built to handle massive volumes of data, assuring quick and seamless access regardless of your geographical location.\nOur mission is to empower traders, researchers, and financial professionals with the tools they need to make informed decisions. We do this by providing a platform that is not only rich in data but also user-friendly and reliable. So, whether you’re an individual trader looking for the latest stock prices or a research institution in need of large sets of varied financial data, DataFinHub is designed with you in mind.\nFeel free to delve into the wealth of data and features we offer, and enhance your financial ventures through the power of accurate and reliable information."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "",
+    "section": "",
+    "text": "DataFinHub specializes in providing high-quality historical intraday financial data that serves as a reliable backbone for your trading and analytical needs. Understanding the importance of accurate past data for future analysis, our platform offers comprehensive historical datasets across various asset classes, including equities, commodities, and cryptocurrencies.\nWhether you’re backtesting trading strategies, conducting academic research, or implementing machine learning models, DataFinHub offers you a treasure trove of data points and time series that can enhance the rigor of your analysis.\nChoose DataFinHub for your historical financial data requirements, and empower your decision-making process with unparalleled insights from the past.\nThe data provided by DataFinHub comes in a meticulously structured format designed for easy interpretation and integration into your workflow. Each data point consists of the following elements:\n\nTimestamp: The precise date and time at which the data was recorded, typically in the format of YYYY-MM-DD HH:MM:SS.\nOpen: The price at which a security first trades upon the opening of an exchange on a given trading day.\nHigh: The highest traded price of a security during the time interval represented.\nLow: The lowest traded price of a security during the time interval represented.\nClose: The last price at which a security trades during the specific time interval.\nVolume: The total number of shares or contracts traded during the given time interval.\n\nThis OHLCV (Open, High, Low, Close, Volume) format provides a comprehensive snapshot of market activity, making it highly suitable for various types of financial analysis, including trend identification, volatility measurement, and strategy backtesting."
+  },
+  {
+    "objectID": "Tickerlist.html",
+    "href": "Tickerlist.html",
+    "title": "US Index list",
+    "section": "",
+    "text": "US Index list\n\n\n\n\n\n\n\n\n\nExchanged Traded Fund\n\n\n\n\n\n\n\n\n\nForeign Exchange Market\n\n\n\n\n\n\n\n\n\nStock Market\n\n\n\n\n\n\n\n\n\nFuture Market\n\n\n\n\n\n\n\n\n\nCrypto Market"
+  }
+]
