@@ -19,5 +19,12 @@
     "title": "US Index list",
     "section": "",
     "text": "US Index list\n\n\n\n\n\n\n\n\n\nExchanged Traded Fund\n\n\n\n\n\n\n\n\n\nForeign Exchange Market\n\n\n\n\n\n\n\n\n\nStock Market\n\n\n\n\n\n\n\n\n\nFuture Market\n\n\n\n\n\n\n\n\n\nCrypto Market"
+  },
+  {
+    "objectID": "API.html",
+    "href": "API.html",
+    "title": "URL ENPOINT",
+    "section": "",
+    "text": "DATAFINHUB API DOCUMENTATION\n\nURL API\n\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/\n\nTICKER OPTION {TICKER}\n\nThe ticker is available on the ticker list page\n\nTIME FRAME OPTION {TIMEFRAME}\n\n\nDaily =&gt; “1day”\nEach 1 hour =&gt; “1hour”\nEach 30 minutes =&gt; “30min”\nEach 5 minutes =&gt; “5min”\nEach 1 minutes =&gt; “1min”\n\n\n\n\n\nURL ENPOINT\nUS INDEX\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}.txt\nFUTURE\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_{TIMEFRAME}_continuous_adjusted.txt\nETF\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}_adjsplit.txt\nFX\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}.txt\nSTOCK\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}_adjsplit.txt\nCRYPTO\nhttps://datafinhub.s3.ca-central-1.amazonaws.com/{TCKER}_full_{TIMEFRAME}.txt"
   }
 ]

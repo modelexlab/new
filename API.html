@@ -86,7 +86,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
+    <a class="nav-link" href="./about.html" rel="" target="">
  <span class="menu-text">About us</span></a>
   </li>  
   <li class="nav-item">
@@ -94,7 +94,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Ticker List</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./API.html" rel="" target="">
+    <a class="nav-link active" href="./API.html" rel="" target="" aria-current="page">
  <span class="menu-text">API Documentation</span></a>
   </li>  
 </ul>
@@ -109,7 +109,14 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#datafinhub-api-documentation" id="toc-datafinhub-api-documentation" class="nav-link active" data-scroll-target="#datafinhub-api-documentation">DATAFINHUB API DOCUMENTATION</a></li>
+  <li><a href="#url-enpoint" id="toc-url-enpoint" class="nav-link" data-scroll-target="#url-enpoint"><strong>URL ENPOINT</strong></a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -121,12 +128,46 @@ ul.task-list li input[type="checkbox"] {
 <p><img src="logo.png" class="img-fluid figure-img" width="253"></p>
 </figure>
 </div>
-<p>At DataFinHub, we’re more than just a platform; we’re a community of financial enthusiasts committed to democratizing access to high-quality financial data. Founded by a team of seasoned professionals with backgrounds in finance, data science, and technology, we realized the gap that existed between the availability of comprehensive and accurate financial data and the individuals and institutions that needed it the most.</p>
-<p>We’re headquartered in the financial hub of the city, but our reach is global. Our technology infrastructure is built to handle massive volumes of data, assuring quick and seamless access regardless of your geographical location.</p>
-<p>Our mission is to empower traders, researchers, and financial professionals with the tools they need to make informed decisions. We do this by providing a platform that is not only rich in data but also user-friendly and reliable. So, whether you’re an individual trader looking for the latest stock prices or a research institution in need of large sets of varied financial data, DataFinHub is designed with you in mind.</p>
-<p>Feel free to delve into the wealth of data and features we offer, and enhance your financial ventures through the power of accurate and reliable information.</p>
+<section id="datafinhub-api-documentation" class="level3">
+<h3 class="anchored" data-anchor-id="datafinhub-api-documentation">DATAFINHUB API DOCUMENTATION</h3>
+<dl>
+<dt>URL API</dt>
+<dd>
+<p><a href="https://datafinhub.s3.ca-central-1.amazonaws.com/" class="uri">https://datafinhub.s3.ca-central-1.amazonaws.com/</a></p>
+</dd>
+<dt>TICKER OPTION {TICKER}</dt>
+<dd>
+<p>The ticker is available on the ticker list page</p>
+</dd>
+<dt>TIME FRAME OPTION {TIMEFRAME}</dt>
+<dd>
+<ol type="1">
+<li><p>Daily =&gt; “1day”</p></li>
+<li><p>Each 1 hour =&gt; “1hour”</p></li>
+<li><p>Each 30 minutes =&gt; “30min”</p></li>
+<li><p>Each 5 minutes =&gt; “5min”</p></li>
+<li><p>Each 1 minutes =&gt; “1min”</p></li>
+</ol>
+</dd>
+</dl>
+</section>
+<section id="url-enpoint" class="level1">
+<h1><strong>URL ENPOINT</strong></h1>
+<p><strong>US INDEX</strong></p>
+<pre><code>https://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}.txt</code></pre>
+<p><strong>FUTURE</strong></p>
+<pre><code>https://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_{TIMEFRAME}_continuous_adjusted.txt</code></pre>
+<p><strong>ETF</strong></p>
+<pre><code>https://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}_adjsplit.txt</code></pre>
+<p><strong>FX</strong></p>
+<pre><code>https://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}.txt</code></pre>
+<p><strong>STOCK</strong></p>
+<pre><code>https://datafinhub.s3.ca-central-1.amazonaws.com/{TICKER}_full_{TIMEFRAME}_adjsplit.txt</code></pre>
+<p><strong>CRYPTO</strong></p>
+<pre><code>https://datafinhub.s3.ca-central-1.amazonaws.com/{TCKER}_full_{TIMEFRAME}.txt</code></pre>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
